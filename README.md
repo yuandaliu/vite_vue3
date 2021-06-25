@@ -1,4 +1,4 @@
-# vite_vue3
+# vite_vue3项目模板
 
 ## vite + vue3 + element plus + router4 + axios + less  项目技术栈
 
