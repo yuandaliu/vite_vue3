@@ -1,7 +1,7 @@
 /**
- * @author: ...|...;
- * @date: 2021.06.25;
- * @discription: 页面引入按需加载 设置路由拦截器
+ * @author ...|...
+ * @date 2021.06.25
+ * @discription 页面引入按需加载 设置路由拦截器
 */
 
 import axios from 'axios'
@@ -9,7 +9,7 @@ import axios from 'axios'
 const service = axios.create({
   // baseURL: `process.env.${VUE_APP_BASE_API0}`,  // url = base url + request url
   // withCredentials: true, // send cookies when cross-domain requests
-  timeout: 5000, // request timeout
+  timeout: 000, // request timeout
   responseType: 'json',
   headers: {
     Accept: "application/json",

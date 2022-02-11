@@ -1,6 +1,6 @@
 <template>
-  <div class="about">
-    About
+  <div class="bar">
+    转
   </div>
 </template>
 
@@ -21,4 +21,8 @@ export default {
 </script>
 
 <style scoped lang="less">
+.bar {
+  width: 300px;
+  height: 300px;
+}
 </style>
