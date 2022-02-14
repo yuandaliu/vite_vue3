@@ -10,13 +10,8 @@ const router = new createRouter({
   history: createWebHashHistory(), // 路由模式
   routes: [
     {
+      name: '首页',
       path: '/',
-      name: '首页',
-      redirect: '/index'
-    },
-    {
-      name: '首页',
-      path: '/index',
       component: () => import('../view/index.vue')
     },
     {
@@ -27,6 +22,7 @@ const router = new createRouter({
 })
 
 router.beforeEach((to, from, next) => {
+  if (to.matched.length === 0) { router.push(to.path) }
   next()
 })
 
